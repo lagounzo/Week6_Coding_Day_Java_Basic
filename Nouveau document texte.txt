@@ -1,0 +1,47 @@
+Exercices du jour
+
+Exercice 1 : 
+
+Les concepts de base de Java tels que les classes, les objets, les propriétés, les constructeurs, 
+les méthodes, les boucles, les structures de contrôle, les fonctions et les algorithmes de tri.
+
+1 - Créez une classe appelée "Student" avec les propriétés suivantes : nom (String), numéro d'étudiant (int), note (double).
+
+2 - Créez un constructeur qui accepte un nom, un numéro d'étudiant et une note en entrée et initialise les propriétés de la classe.
+
+3 - Créez une méthode appelée "displayDetails" qui affiche les détails de l'étudiant.
+
+4 - Créez une classe appelée "Main" avec une méthode "main" qui instancie 3 objets "Student" 
+avec des données différentes et appelle la méthode "displayDetails" pour chaque objet.
+
+5 - Utilisez les boucles "for" pour parcourir les objets "Student" et afficher les détails de tous les étudiants.
+
+6 - Utilisez les structures de contrôle telles que "if-else" pour vérifier la note d'un étudiant et afficher "pass" ou "fail" en conséquence.
+
+7 - Créez une méthode qui calcule la moyenne des notes de tous les étudiants.
+
+8 - Ajoutez une fonction pour trier les étudiants en fonction de leur nom ou de leur numéro d'étudiant 
+en utilisant les algorithmes de tri tels que "trier par sélection" ou "trier par insertion".
+8 h 09
+
+
+
+
+
+
+
+
+
+
+
+
+Exercice 2 : Cet exercice couvre les concepts de base de l'héritage en Java, notamment l'héritage, la surcharge de méthode et le polymorphisme.
+1 - Créez une classe abstraite appelée "Animal" qui a une méthode abstraite appelée "parler" et une méthode non abstraite appelée 
+"déplacement" qui affiche simplement un message indiquant comment l'animal se déplace.
+2 - Créez des classes filles appelées "Chien", "Chat" et "Oiseau" qui héritent de la classe "Animal".
+3 - Dans chacune des classes filles, surchargez la méthode "parler" pour qu'elle retourne une chaîne de caractères différente 
+pour chaque animal. Par exemple, la méthode "parler" dans la classe "Chien" pourrait renvoyer "Ouaf, Ouaf !"
+4 - Créez une classe appelée "TestAnimal" qui crée des objets de chaque classe fille et appelle la méthode "parler" pour chaque objet.
+5 - Utilisez la polymorphisme pour appeler la méthode "déplacement" pour chaque objet en utilisant une référence de la classe "Animal".
+ Vérifiez que le message de déplacement s'affiche pour chaque objet.
+6 - Ajoutez une méthode "voler" à la classe "Oiseau", puis testez la méthode en utilisant une référence à un objet "Oiseau".
